@@ -1,0 +1,28 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    width: 33%;
+    background-color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+}
