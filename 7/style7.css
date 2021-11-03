@@ -1,5 +1,6 @@
 .container {
     height: 915px;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 5fr 0.6fr;
     grid-template-rows: 0.2fr 1fr 0.4fr 0.15fr;
@@ -25,17 +26,18 @@
     background-color: rgb(26, 190, 240);
 }
 
-
-}
 .Cinco {
     grid-area: Cinco;
 }
+
 .Seis {
     grid-area: Seis;
 }
+
 h1 {
-    margin-left: 75%;
+    text-align: right;
 }
+
 hr {
     height: 5px;
     background-color: black;
