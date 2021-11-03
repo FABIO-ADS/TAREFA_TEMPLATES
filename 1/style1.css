@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    height: 930px;
+    margin-top: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas: "Um Um Dois Dois" "Um Um Dois Dois" "Um Um Três Quatro" "Cinco Cinco Cinco Quatro" "Cinco Cinco Cinco Quatro";
+}
+
+.Um {
+    grid-area: Um;
+    background-color: aquamarine;
+}
+
+.Dois {
+    grid-area: Dois;
+    background-color: aquamarine;
+}
+
+.Três {
+    grid-area: Três;
+    background-color: aquamarine;
+}
+
+.Quatro {
+    grid-area: Quatro;
+    background-color: aquamarine;
+}
+
+.Cinco {
+    grid-area: Cinco;
+    background-color: white;
+}
+
+hr {
+    height: 5px;
+    background-color: black;
+}

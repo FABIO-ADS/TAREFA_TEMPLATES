@@ -1,0 +1,50 @@
+.container {
+    height: 915px;
+    display: grid;
+    grid-template-columns: 0.3fr 0.9fr 1fr 1.3fr 1.3fr;
+    grid-template-rows: 0.2fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas: "Um Um Um Um Um" "Dois Tres Tres Quatro Quatro" "Dois Tres Tres Cinco Seis" "Dois Sete Sete Oito Oito";
+}
+
+.Um {
+    grid-area: Um;
+}
+
+.Dois {
+    grid-area: Dois;
+}
+
+.Tres {
+    grid-area: Tres;
+    background-color: aquamarine;
+}
+
+.Quatro {
+    grid-area: Quatro;
+    background-color: aquamarine;
+}
+
+.Cinco {
+    grid-area: Cinco;
+    background-color: aquamarine;
+}
+
+.Seis {
+    grid-area: Seis;
+    background-color: aquamarine;
+}
+
+.Sete {
+    grid-area: Sete;
+}
+
+.Oito {
+    grid-area: Oito;
+}
+
+hr {
+    height: 5px;
+    background-color: black;
+}

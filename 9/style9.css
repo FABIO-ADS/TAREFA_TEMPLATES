@@ -1,0 +1,51 @@
+.container {
+    height: 915px;
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr 1.2fr 1.2fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas: "Um Um Tres Tres Seis" "Um Um Tres Tres Seis" "Um Um Quatro Quatro Seis" "Dois Dois Quatro Quatro Seis" "Dois Dois Cinco Cinco Seis" "Dois Dois Cinco Cinco Seis";
+}
+
+.Um {
+    grid-area: Um;
+    background-color: aquamarine;
+}
+
+.Dois {
+    grid-area: Dois;
+    background-color: aquamarine;
+}
+
+.Tres {
+    grid-area: Tres;
+    background-color: aquamarine;
+}
+
+.Quatro {
+    grid-area: Quatro;
+    background-color: aquamarine;
+}
+
+.Cinco {
+    grid-area: Cinco;
+    background-color: aquamarine;
+}
+
+.Seis {
+    grid-area: Seis;
+}
+
+.Nome_Invertido {
+    /* rotacionar um texto= */
+    transform: rotate(90deg);
+    margin-top: 150%;
+    margin-right: 50%;
+}
+
+hr {
+    width: 530%;
+    height: 5px;
+    background-color: black;
+}

@@ -1,0 +1,43 @@
+.container {
+    height: 915px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas: "Um Um Tres Tres" "Dois Dois Tres Tres" "Quatro Quatro Cinco Cinco";
+}
+
+.Um {
+    grid-area: Um;
+    background-color: rgb(26, 190, 240);
+}
+
+.Dois {
+    grid-area: Dois;
+    background-color: rgb(26, 190, 240);
+}
+
+.Tres {
+    grid-area: Tres;
+}
+
+.Quatro {
+    grid-area: Quatro;
+    background-color: rgb(26, 190, 240);
+}
+
+.Cinco {
+    grid-area: Cinco;
+    background-color: rgb(26, 190, 240);
+}
+
+h1 {
+    margin-top: 52%;
+}
+
+hr {
+    height: 5px;
+    background-color: black;
+    margin-top: 0%;
+}
