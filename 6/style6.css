@@ -1,46 +1,65 @@
-    .container {
-        height: 915px;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 0.7fr 1fr 1fr 1.2fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 10px 10px;
-        grid-auto-flow: row;
-        grid-template-areas: "Um Dois Dois Cinco" "Um Tres Tres Cinco" "Um Quatro Quatro Cinco";
-    }
-    
-    .Um {
-        grid-area: Um;
-    }
-    
-    .Dois {
-        grid-area: Dois;
-        background-color: aquamarine;
-    }
-    
-    .Tres {
-        grid-area: Tres;
-        background-color: aquamarine;
-    }
-    
-    .Quatro {
-        grid-area: Quatro;
-        background-color: aquamarine;
-    }
-    
-    .Cinco {
-        grid-area: Cinco;
-    }
-    
-    .Nome_Invertido {
-        /* rotacionar um texto= */
-        transform: rotate(90deg);
-        margin-top: 120%;
-        margin-left: 50%;
-    }
-    
-    hr {
-        width: 330%;
-        height: 5px;
-        background-color: black;
-    }
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas: "Um Dois Dois Cinco" "Um Tres Tres Cinco" "Um Quatro Quatro Cinco";
+}
+
+.Um {
+    grid-area: Um;
+}
+
+.Dois {
+    grid-area: Dois;
+    background-color: aquamarine;
+}
+
+.Tres {
+    grid-area: Tres;
+    background-color: aquamarine;
+}
+
+.Quatro {
+    grid-area: Quatro;
+    background-color: aquamarine;
+}
+
+.Cinco {
+    grid-area: Cinco;
+}
+
+.Nome_Invertido {
+    /* rotacionar um texto= */
+    transform: rotate(90deg);
+    margin-top: 100%;
+    margin-left: 20%;
+}
+
+hr {
+    width: 160%;
+    height: 5px;
+    background-color: black;
+}
+
+.navegacao {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+a {
+    margin-left: 20px;
+    color: black;
+}
+
+a span {
+    margin-left: 5px;
+}
